@@ -1,0 +1,65 @@
+.contact {
+  padding: 6.25rem 1.25rem;
+}
+
+.chat {
+  width: 100%;
+  height: 17.1rem;
+  margin-top: 1.25rem;
+}
+
+.textarea,
+input {
+  width: 100%;
+  padding: 0.87rem;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+  border: 1px solid #f0e9ff;
+  border-radius: 5px;
+  /* height: 48px; */
+  padding-left: 1.12rem;
+  font-size: 0.81rem;
+  background: transparent;
+  color: #495057;
+  box-sizing: border-box;
+}
+
+textarea:focus,
+input:focus {
+  outline: 0;
+}
+
+.half-flex {
+  display: flex;
+}
+
+.contact_firstname {
+  padding-right: 0.94rem;
+  flex: 1;
+}
+
+.contact_email {
+  padding-left: 0.94rem;
+  flex: 1;
+}
+
+.contact_send {
+  margin-top: 1.87rem;
+}
+
+.button {
+  padding: 18px;
+  background: linear-gradient(0deg, rgb(147, 136, 136), rgb(126, 126, 221));
+  border: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .half-flex {
+    flex-direction: column;
+  }
+
+  .contact_firstname,
+  .contact_email {
+    padding: 0;
+  }
+}

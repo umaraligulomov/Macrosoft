@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    
+
+     <div class="container">
+        <section class="contact">
+            <div class="section-title">
+                Contact me
+            </div>
+            <form action="/server.php" method="GET">
+                <textarea class="chat" row="10" placeholder="Enter your message" name="message" ></textarea>
+               <div class="half-flex">
+                <div class="contact_firstname">
+                    <input type="text" placeholder="Name" name="firstname">
+                </div>
+                <div class="contact_firstname">
+                    <input type="text" placeholder="Last name" name="firstname">
+                </div>
+                <div class="contact_email">
+                        <input type="email" placeholder="Enter your email" name="email">
+                </div>
+               </div>
+                <input type="text" placeholder="Content of the letter" name="subject">
+                <button class="button" type="submit"> Send message</button>
+
+            </form>
+        </section>
+    </div>
+
+
+</body>
+</html>
